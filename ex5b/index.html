@@ -142,7 +142,9 @@
 
       var result = convertTemperature(t, u);
 
-      alert("Temperature is " + result.value + " in " + result.unit);
+      $("#result").html(
+        "Temperature is " + result.value + " in " + result.unit
+      );
 
     });
   });
